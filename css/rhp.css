@@ -1,0 +1,64 @@
+/* body{
+	background-color: #bdbbbb;
+}
+
+h1{
+	font-family: 'Griffy', cursive;
+	font-size: 3em;
+	color:#ee5000;
+	text-align: center;
+}
+
+.wrapper{
+	margin:0 auto;
+	width: 370px;
+}
+
+.raadje-plaatje{
+	background-color: #fff;
+	border-radius: 20px;
+	/* overflow:hidden;	 */
+	display:flex;
+	justify-content: flex-start;
+	/* flex-wrap: wrap; */
+}
+
+.img-grid{
+	margin-top:20px;
+	background-color: #ee5000;
+	padding:15px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.img--small{
+	border: 3px solid #fff;
+	margin:3px;
+} */
+
+.picture{
+	border:#0096ff 20px solid;
+	border-radius: 20px;
+	background-color: #0096ff;
+	width:150px;
+	height:150px;
+}
+
+.message{
+	width:130px;
+	padding:20px;
+	font-size:1.4em;
+}
+
+.class0, .class1, .class2 {
+	background-color: #ee5000;
+	padding:10px;
+}
+
+#geselecteerd {
+	padding: 10px;
+	background-color: #ee5000;
+}

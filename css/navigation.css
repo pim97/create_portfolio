@@ -1,0 +1,100 @@
+/**
+ * Game was created by Pim de Bree
+ * 
+ * finished at 13-9-2017
+ * 
+ * Please contact: pim_debree@hotmail.com
+ * if any bugs occur
+ * 
+ * Geen plagiaat aub.
+ * 
+ */
+ 
+@font-face {
+    font-family: code;
+    src: url(code.ttf);
+}
+
+header .navigation .img {
+    background-image: url("../img/header/navigatie_sided.png");
+    width:350px;
+    height: 950px;
+    background-size: cover;
+    /* border: 1px solid red; */
+}
+
+.navigation .photo_of_me {
+    width: 50px;
+    opacity: 0.7;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navigation .personal_small_info {
+    /* border: 1px solid red; */
+    padding-bottom:80px;
+    width:215px;
+}
+
+.navigation .navigation_bar {
+    /* border: 1px solid red; */
+}
+
+.navigation_info {
+    /* border: 1px solid red; */
+    width:350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:350px;
+}
+
+.block {
+    /* background-color: green; */
+    display: block;
+    padding:5px;
+}
+
+header .navigation .info_me {
+    margin-top:100px;
+    width:215px;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+header .navigation {
+    font-family: code;
+    color: white;
+    text-align: center;
+    margin-top:-150px;
+}
+
+body {
+    display: flex;
+}
+
+header .navigation ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+header .navigation p {
+    font-size:10px;
+}
+
+header .navigation ul li a:visited {
+    list-style-type: none;
+}
+
+header .navigation ul li a:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+html, body {
+    min-height: 100%;
+}
+

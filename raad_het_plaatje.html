@@ -1,0 +1,74 @@
+<!-- Pim de Bree uitwerking -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel='stylesheet' href="./css/rhp.css" />
+	<link href='http://fonts.googleapis.com/css?family=Griffy' rel='stylesheet' type='text/css'>
+	<title>Raad het plaatje</title>
+</head>
+
+<body>
+	<div class='wrapper'>
+		<div id='raadje-plaatje'>
+			<img id='random-img' id='picture'/>
+		</div>
+		<div class='img-grid' id='img-grid'>
+
+			
+		</div>
+
+		<p id="text">
+
+
+		</p>
+	</div>
+	<script src="./js/rhp.js"></script>
+
+	<script>
+		var number = 0;
+
+		for (var i = 0; i < pictureArray.length; i++) {
+
+			var x = document.createElement("IMG");
+			
+			x.setAttribute("class", "class"+number);
+            
+            console.log("./img/rhp/"+pictureArray[i]+".jpg");
+			x.setAttribute("src", "./img/rhp/"+pictureArray[i]+".jpg");
+			x.setAttribute("id", pictureArray[i]);
+			x.setAttribute("width", "100");
+			x.setAttribute("height", "100");
+			x.setAttribute("alt", pictureArray[i]);
+			document.body.appendChild(x);
+
+			if (i == 2 || i == 5) {
+				var z = document.createElement("DIV");
+				document.body.appendChild(z);
+				
+				number++;
+			}
+			console.log(x.getAttribute("id"));
+		}
+
+		var rand = Math.floor(Math.random() * pictureArray.length);
+		var name = pictureArray[rand];
+
+		var picture = document.getElementById(name);
+		var wrap = document.getElementById("raadje-plaatje");
+
+		var plaatje_extra = document.createElement("IMG");
+		plaatje_extra.setAttribute("src", "./img/rhp/"+name+".jpg");
+		plaatje_extra.setAttribute("id", "geselecteerd");
+		wrap.appendChild(plaatje_extra);
+
+
+	</script>
+
+</body>
+
+</html>

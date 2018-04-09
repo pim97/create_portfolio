@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/navigation.css" type="text/css">
+    <link rel="stylesheet" href="./css/contents.css" type="text/css">
+    <link rel="stylesheet" href="./css/contents_about.css" type="text/css">
+    <link rel="stylesheet" href="./css/science.css" type="text/css">
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>Pim de Bree - Science</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="hidden_navigation_responsive">
+            <div class="flex">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about_me.html">Information</a></li>
+                    <li><a href="./game.html">Game</a></li>
+                    <li><a href="./motivation.html">Motivation</a></li>
+                    <li><a href="./science.html">Science</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <div class="img">
+
+                <div class="navigation_info">
+                    <ul>
+
+                        <div class="personal_small_info">
+                            <img class="photo_of_me" alt="picture_of_me" src="./img/header/icon.png" />
+                            <p>Wow! A wild computer appeared</p>
+                        </div>
+
+                        <div class="navigation_bar">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about_me.html">Information</a></li>
+                            <li><a href="./game.html">Game</a></li>
+                            <li><a href="./motivation.html">Motivation</a></li>
+                            <li><a href="./science.html">Science</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </div>
+
+                        <div class="info_me">
+                            <p class="block">Website created by: Pim de Bree</p>
+                            <p class="block">At the HZ University in Vlissingen Zeeland NL</p>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+<!-- 
+        <div class="image_header">
+            <div class="image_header_picture">
+
+                <div class="typewriter">
+                    <span style="color:white;"class="pim_de_bree"></span>
+                </div>
+
+                <script src="./js/ityped.js"></script>
+                <script type="text/javascript">
+                    window.ityped.init(document.querySelector('.pim_de_bree'), {
+                        strings: ["Tech"],
+                        typeSpeed: 180,
+                        loop: false
+                    })
+                </script>
+            </div>
+        </div> -->
+
+        <!-- <div class="info">
+            <div class="bar">
+                <p class="bar_text">
+                    About me
+                </p>
+            </div>
+
+            
+                <p class="my_info_text">
+                    <img class="my_picture" alt="picture of myself" src="./img/header/my_self.png"/>
+                    
+                    
+                    Hey! Leuk dat je de weg op het web hebt gevonden naar mijn pagina!
+                    
+                    Ik ben sinds kort een student op de Hogeschool in Vlissingen, oftewel de HZ. Op mijn weg naar software engineer zijn er nog vele valkuilen te ontdekken, inclusief het maken van deze website.
+                    
+                </p>
+                
+            </div>
+        </div> -->
+<!-- 
+        <div class="bar">
+            <p class="bar_text">
+                Science stuff..
+            </p>
+        </div> -->
+        <div class="info_me_wrapper">
+            <div class="info_picture">
+                <!-- <img class="my_picture" alt="picture of myself" src="./img/header/my_self.png" /> -->
+            </div>
+            <p class="info_text">
+                
+                <div class="center_flex">
+                    <div class="outer_for_center">
+                    <table>
+
+                        <tr>
+                            <th>
+                                <p>Hoe werkt een webpagina?</p>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Goede vraag, ik zal het een uitleggen in een klein verhaaltje</p>   
+                                
+                            </td> 
+                        </tr>
+                        
+
+                        
+
+
+                    </table>
+
+                    <table>
+                        <th>   
+                                <p>De gebruiker</p>
+                            </th>
+
+                            <th>
+                                <p>Browser</p>
+                            </th>
+
+                            <th>
+                                <p>De webserver</p>
+                            </th>
+
+                            <th>
+                                <p>Document root</p>
+                            </th>
+
+                            <tr>
+                                <td>
+                                    <p>Je hebt dus een user, een gebruiker die iets wil doen op het internet, je zou dus kunnen zeggen dat hij iets wil requesten, dus bijvoorbeeld een pagina of een plaatje</p>    
+                                </td>
+
+                                <td>
+                                    <p>De browser, hij krijgt eigenlijk een actie van de gebruiker en de browser moet hier iets mee gaan doen. De browser ontvangt dus de actie en zal een http-request sturen naar de webserver voor de bestanden die hij graag zou willen zien</p>
+                                </td>
+
+                                <td>
+                                    <p>De webserver ontvangt dan deze http-request en zal dan proberen te leveren wat de browser vraagt, indien de webserver, dus bijvoorbeeld xampp, dat kan voltooien, dan zal hij sturen 200 OK met daarbij heel veel data dat later weer gebruikt kan worden om de pagina te laten zien. Wanneer dee webserver niet aan de request kan voldoen, dan zal hij sturen, 404 Error. De methode die daarbij wordt verzonden is GET</p>
+                                </td>
+
+                                <td>
+                                    <p>De document root zijn de documenten in de root van de webserver, deze bestanden staan dus ook niet op jouw computer en worden hier dus opgeslagen. Als de webserver kan voldoen aan de gebruiker dan zullen de bestanden m.b.v. 200 OK worden verzonden naar de gebruiker</p>
+                                </td>
+                            </tr>
+                    </table>
+
+                    <table>
+                        <th>In een plaatje</th>
+
+                        <tr>
+                            <td>
+                                <p>In dit plaatje wordt ook wel een web sequence diagram weergegeven, hierin kan je zien wat voor stappen er worden gemaakt voordat een bepaalde request door een gebruiker is voltooid.</p>
+                                <img src="./img/header/data.png" alt="webrowsing data sequentional"/>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                    <p>Wat gebeurt er als je op een pagina komt met een plaatje met een bepaalde link?</p>
+                    <table>
+
+                        <th>User</th>
+                        <th>Browser</th>
+                        <th>De webserver</th>
+                        <th>Document root</th>
+
+                        <tr>
+                            <td>
+                                <p>De user komt op de pagina, oftewel surft naar bijv. index.html -></p>
+                            </td>
+                            <td>
+                                <p>De browser zal dat een http request sturen naar de webserver -></p>
+                            </td>
+                            <td>
+                                <p>De webserver kijkt in de document root of de bestanden er ook wel zijn -></p>
+                            </td>
+                            <td>
+                                <p>De document root stuurt de bestanden terug naar de webserver (naar beneden)</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>De gebruiker ziet index.html</p>
+                            </td>
+                            <td>
+                                <p><- De browser laat index.html zien aan de gebruiker (en naar beneden)</p>
+                            </td>
+                            <td>
+                                <p><- De websturen duurt de http-request, nu een reponse naar de browser</p>
+                            </td>
+                            <td>
+                                <p><- De webserver stuurt een 200 OK of een 404 ERROR response</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>-> Staat een plaatje op de browser de browser stuurt een request naar de webserver</p>
+                            </td>
+                            <td>
+                                <p>-> Webserver kijkt weer of hij hier aan kan voldoen, dus OK of ERROR</p>
+                            </td>
+                            <td>
+                                <p>Document root stuurt de bestanden terug, dus plaatje naar de webserver (weer omlaag)</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p><- Gebruiker ziet nu ook het plaatje op het scherm</p>
+                            </td>
+                            <td>
+                                <p>< Browser laat het plaatje zien naar de gebruiker</p>
+                            </td>
+                            <td>
+                                <p><- Webserver stuurt het plaatje naar de browser (http-response)</p>
+                            </td>
+                            <td>
+                                <p><- Stuurt het plaatje naar de webserver</p>
+                            </td>
+                        </tr>
+
+                            
+                    </table>
+
+                </p>
+            </div>
+        </div>
+
+        
+
+
+
+    </main>
+
+</body>
+
+</html>

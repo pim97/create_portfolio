@@ -1,0 +1,35 @@
+vereisten op je pagina
+
+leeftijd - done
+geslacht - done
+stad waar je in woont - done
+or waar school heb gezeten - done
+
+-> <strong gebruikt>
+lijsten in lijsten - done
+
+-- in een orderend list <ol> -> in elkaar
+favoriete bezigheden - done
+-- einde
+
+-- unordered list <ul>
+intesses, werk ervaringen, favoriete quotes, waar je geleefd heb
+-- einde
+
+
+-- nog te doen
+footer met facebook/w.e. icoontjes
+
+https://github.com/ummahusla/Codecademy-Exercise-Answers/tree/master/Language%20Skills/HTML%20%26%20CSS/Unit%2002%20HTML%20Structure%20using%20lists/02%20Social%20Networking%20Profile
+https://github.com/ummahusla/Codecademy-Exercise-Answers/tree/master/Language%20Skills/HTML%20%26%20CSS/Unit%2003%20HTML%20Structure%20-%20Tables%20Divs%20and%20Spans/02%20Clickable%20Photo%20Page -> techniek pagina
+
+Maak of zoek ongeveer negen tekeningen/afbeeldingen waarmee jij aan de nieuwe studenten van volgend jaar kunt uitleggen hoe een websysteem (webservers, HTML, http, etc.) werkt. Deze afbeeldingen ga je gebruiken in de volgende stap
+
+
+
+
+window.addEventListener("load", init);
+
+function init() {
+
+}

@@ -1,0 +1,170 @@
+
+.bar {
+    margin-top:30px;
+    background-image: url("../img/header/bar_o.png");
+    background-size: cover;
+    background-position: center;
+    height:40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bar_text {
+    color: white;
+    font-family: code;
+    margin: auto;
+}
+
+
+main {
+    margin-right:30px;
+    margin-top:20px;
+    flex-direction: column;
+}
+
+/* .my_info_text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 1px solid red;
+} */
+
+
+/* .info {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+    margin-top:15px;
+    border: 1px solid #01D7F9;
+} */
+
+/* .my_picture {
+    margin-bottom:5px;
+    max-height: 140px;
+    border: 1px solid red;
+} */
+
+.image_header {
+    width:100%;
+    max-height: 500px;
+    height: 250px;
+    /* margin-bottom:50px; */
+    background-image: url("../img/header/desk_pic_2_opacity.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 10%;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+.image_header_motivation {
+    width:100%;
+    max-height: 500px;
+    height: 250px;
+    /* margin-bottom:50px; */
+    background-image: url("../img/header/dordrecht.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 10%;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+
+.image_header_game {
+    width:100%;
+    margin-bottom:50px;
+    display: flex;
+}
+
+.image_header:hover {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.image_header_picture {
+    margin: auto;
+    font-family: code;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+.center_flex {
+    display: flex;
+}
+
+.outer_for_center {
+    margin: auto;
+    padding:10px;
+    text-align: center;
+}
+
+.sidemap {
+    margin: 10px 20px 0px 0px;
+}
+
+.info_me_wrapper {
+    /* display: flex; */
+    width:100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5); 
+    /* border: 1px solid red; */
+    /* align-items: center; */
+    /* text-align: center; */
+    float: left;
+    line-height: 18px;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my_picture {
+    max-height: 100px;
+    margin:0;
+    padding:0;
+}
+
+.info_text {
+    /* border: 1px solid red; */
+    height: 100%;
+    padding:10px;
+}
+
+.info_picture {
+    padding:10px;
+    float: left;
+    /* border: 1px solid red; */
+}
+
+.interests ul li {
+    list-style-type: initial;
+    text-decoration-style: initial;
+}
+
+.interests{
+    margin-left:25px;
+    padding: 5px;
+}
+
+ol{
+    padding: 0 25px;
+}
+ol li{
+    padding-left: 0px;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+    padding:5px;
+}
