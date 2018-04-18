@@ -3,5 +3,4 @@
 
 <p align="center">Final grade: 8.5</p>
 <p align="center">Created by: Pim97</p>
-<p align="center">Created for: HZ</p>
 <p align="center">Contact: pim_debree@hotmail.com</p>
